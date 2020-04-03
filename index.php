@@ -13,7 +13,6 @@ if($con){
 	echo"No ";
 }
 
-
 mysqli_select_db($con, 'foodie');
 if(isset($_SESSION["email"])){
 $email = $_SESSION["email"];
