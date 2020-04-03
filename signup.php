@@ -32,7 +32,7 @@
 		<div class="container"> 
 			<h3 class="w3ls-title w3ls-title1">Sign Up to your account</h3>  
 			<div class="login-agileinfo"> 
-				<form action="regis.php" method="post"> 
+				<form action="registration.php" method="post"> 
 					<input class="agile-ltext" type="text" id="name" name="name" placeholder="name" required="">
 					<input class="agile-ltext" type="email" id="email" name="email" placeholder="Your Email" required="">
 					<input class="agile-ltext" type="password" id="password" name="password" placeholder="Password" required="">
