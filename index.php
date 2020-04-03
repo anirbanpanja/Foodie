@@ -14,13 +14,14 @@ if($con){
 }
 
 
-mysqli_select_db($con, 'foodie');
-$email = $_SESSION["email"];
-
-$q1 = "select name from customer where email= '$email' ";
-$data = mysqli_query($con, $q1);
-
-$name = mysqli_fetch_row($data);
+if(isset($_SESSION["email"])){
+	$email = $_SESSION["email"];
+	
+	$q1 = "select name from customer where email= '$email' ";
+	$data = mysqli_query($con, $q1);
+	
+	$name = mysqli_fetch_row($data);
+}
 // echo $name[0];
 
   ?>
