@@ -21,36 +21,23 @@
 								<li><a href="login.php">Track Order</a></li> 
 								
 								<li><a href="login.php" >My Cart</a></li>
-						<li><a href="#" ><?php 
-						if (isset($name[0]))
-
-						 echo $name[0]; ?></a></li>
-
-							</ul>
+								<li><a href="#" ><?php 
+									if (isset($name[0])){echo $name[0];} ?></a></li>
+								<li>
+									<a class="w3view-cart cross__link" href="login.php">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</li>
+								<!-- hello -->
+						</ul>
 						</div>
+						<!--
 						<div class="cart cart box_1"> 
 							<form action="#" method="post" class="last"> 
 								<input type="hidden" name="cmd" value="_cart" />
 								<input type="hidden" name="display" value="1" />
-								   <a class="w3view-cart cross__link" href="login.php">
-
-								
-									<div class="dropdown">
-										  <i class="fa fa-user" aria-hidden="true">
-										  <div class="dropdown-content">
-										    <a href="#">Link 1</a>
-										    <a href="#">Link 2</a>
-										    <a href="#">Link 3</a>
-										  </div>
-										</div>
-
-								   	</i></a>
-
-								   </div>
-
-								</li>
 							</form>   
-						 </div> 
+						 </div>
+						 --> 
 					</nav>
 				</div>
 			</div>
