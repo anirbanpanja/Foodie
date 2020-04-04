@@ -23,7 +23,7 @@ $num = mysqli_num_rows($row);
 
 if($num == 1){
 	
-	$_SESSION['email'] = $email ;
+	$_SESSION['email'] = $email;
 	header('location:index.php');
 	// echo $_SESSION['name'];
 	// echo "$name , $email, $password";
