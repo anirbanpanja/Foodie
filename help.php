@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body> 
 	<!-- banner -->
-	<!-- test deleted code -->>
+
 	<div class="banner about-w3bnr">
 		<!-- header -->
 		<div class="header">
